@@ -55,8 +55,7 @@ if (department == null || department.trim().isEmpty()) {
 }
 
 // Validate Email
-if (email == null ||
-    !email.matches("^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{2,}$")) {
+if (email == null || !email.matches("^[\\w.-]+@[\\w.-]+\\.[a-zA-Z]{2,}$")) {
     emailError = "Email must be in a valid format (e.g., name@example.com).";
     isValid = false;
 }
